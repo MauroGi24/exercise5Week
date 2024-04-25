@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+
+.space {
+    margin-top: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 0px 5px grey;
+    padding: 0.5rem;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li{
+    padding: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    border: solid 1px black;
+    margin: 1rem;
+}
+
+#bestSeller{
+    display: flex;
+    justify-content: center;
+}
+
+.caratteristicheProdotto{
+    text-align: center;
+}
+
+.caratteristicheProdotto span:nth-child(2) {
+    display: block;
+}
+
+.recensioni {
+    text-align: center;
+}
+
+.space input{
+    box-shadow: 0px 0px 20px 2px #00000091;
+    border: 3px solid black;
+}
+
+.space input:focus {
+    box-shadow: 0px 0px 20px 2px yellow;
+   
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer span{
+    display: block;
+}   
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 50px ;
+}
